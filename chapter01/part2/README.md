@@ -1,16 +1,3 @@
-// **********************************************  
-
-// 제 목 : C++Programming 실습과제 1  
-
-// 날 짜 : 2026년 3월 5일  
-
-// 작성자 : 2603043 한정우  
-
-// **********************************************
-
-
-
-
 # 실습과제 1
 
 # IDE란 무엇인가?
@@ -73,6 +60,11 @@ C++ 문법에 맞게 색상을 다르게 표시해 주는 구문 강조(Syntax H
 
 ## 소스 코드
 ```c
+// **********************************************  
+// 제 목 : 화면에 "Hello" 문자열 출력 
+// 날 짜 : 2026년 3월 5일  
+// 작성자 : 2603043 한정우  
+// **********************************************
 #include <iostream>
 
 int main() {
@@ -82,10 +74,10 @@ int main() {
 ```
 
 ## 빌드
-<img width="1918" height="1023" alt="image" src="https://github.com/user-attachments/assets/972cc62d-328f-4bd8-a501-785e2270047f" />
+<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/e4d4ddf9-34de-4589-be50-15135bfc446d" />
 
 ## 실행 결과
-<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/50e526e5-47b4-4949-96f6-7947d53e75df" />
+<img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/c684fecc-3269-4153-8043-22e928905a35" />
 
 ## 소스 파일 위치
 <img width="1397" height="572" alt="image" src="https://github.com/user-attachments/assets/65aeb659-e76a-4266-ace4-aa45da492336" />
