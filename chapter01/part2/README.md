@@ -71,7 +71,28 @@ C++ 문법에 맞게 색상을 다르게 표시해 주는 구문 강조(Syntax H
 
 # 실습과제 2
 
-<img width="1918" height="886" alt="image" src="https://github.com/user-attachments/assets/4eeb7a56-b541-4c89-97bc-ee73ff35a55f" />
+## 소스 코드
+```c
+#include <iostream>
 
+int main() {
+  std::cout << "Hello";
+  return 0;
+}
+```
 
-<img width="1407" height="516" alt="image" src="https://github.com/user-attachments/assets/c4b33404-c4f2-44e7-84af-00168238a29c" />
+## 빌드
+<img width="1918" height="1023" alt="image" src="https://github.com/user-attachments/assets/972cc62d-328f-4bd8-a501-785e2270047f" />
+
+## 실행 결과
+<img width="1918" height="1022" alt="image" src="https://github.com/user-attachments/assets/50e526e5-47b4-4949-96f6-7947d53e75df" />
+
+## 소스 파일 위치
+<img width="1397" height="572" alt="image" src="https://github.com/user-attachments/assets/65aeb659-e76a-4266-ace4-aa45da492336" />
+
+## 목적파일(obj) 위치
+<img width="1395" height="558" alt="image" src="https://github.com/user-attachments/assets/b2ab375d-a81b-476c-b8cf-17b1d28ac58d" />
+
+## 실행파일(.exe) 위치
+<img width="1397" height="606" alt="image" src="https://github.com/user-attachments/assets/4d068d2b-0b97-4787-8927-aad728d5697a" />
+
