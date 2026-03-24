@@ -21,7 +21,8 @@
 ---
 
 # 실습과제 4 - 실행결과
-<img width="1466" height="947" alt="image" src="https://github.com/user-attachments/assets/abf567b4-d406-40b0-968b-af80324f601d" />
+<img width="1512" height="939" alt="image" src="https://github.com/user-attachments/assets/dddef31e-6d26-4439-bd6b-b1ec65d0ba16" />
+
 
 
 ---
