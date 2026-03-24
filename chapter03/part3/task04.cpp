@@ -8,7 +8,7 @@
 
 using namespace std;
 // 원주율 상수로 정의
-const double PI = 3.141592; 
+const double PI = 3.14; 
 // 클래스 정의
 class Sphere {
 public:
