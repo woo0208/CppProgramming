@@ -27,3 +27,12 @@
 ---
 
 
+# 실습과제 5 - 실행결과 및 차이 분석
+<img width="1510" height="951" alt="image" src="https://github.com/user-attachments/assets/ebe699c3-4603-40e3-a9ee-7bfdcc0ab8a9" />
+
+
+### 실행결과가 다른 이유
+#### 실습과제3의 이유와 동일합니다
+
+
+
