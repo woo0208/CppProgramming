@@ -9,7 +9,8 @@
 
 using namespace std;
 
-class Triangle {											// 클래스 선언
+// 클래스 선언
+class Triangle {											
 public:
 	double width;
 	double height;
@@ -19,26 +20,29 @@ public:
 	~Triangle();
 };
 
-Triangle::Triangle() : Triangle(1, 1) {						// 생성자1 선언 (바디가 아닌 초기화 리스트 사용)
+// (위임)생성자1 - 생성자 초기화 리스트를 통해 다른 생성자 호출
+Triangle::Triangle() : Triangle(1, 1) {						
 };
 
-Triangle::Triangle(double a, double b) : width(a), height(b) {     // 생성자2 선언 (바디가 아닌 초기화 리스트 사용 / 바로 출력 생성)
+// 생성자2 선언 (바디가 아닌 초기화 리스트 사용 / 바로 출력 생성)
+Triangle::Triangle(double a, double b) : width(a), height(b) {     
 	cout << "밑변 " << width << "높이 " << height << "인 삼각형 생성" << endl;
 }
 
-Triangle::~Triangle() {										// 소멸자 선언 (중복불가니까 1개만 / 바로 출력 생성) 
+// 소멸자 선언 (매개변수&중복불가 / 바로 출력 생성)
+Triangle::~Triangle() {										 
 	cout << "밑변 " << width << "높이 " << height << "인 삼각형 소멸" << endl;
 };
 
 
-double Triangle::getArea() {								// 면적 계산 함수
+// 면적 계산 함수
+double Triangle::getArea() {								
 	return width * height / 2;
 }
 
 
-
 int main() {
-	Triangle tri1;
+	Triangle tri1;			
 	cout << "삼각형의 면적은 " << tri1.getArea() << endl;
 	Triangle tri2(2, 4);
 	cout << "삼각형의 면적은 " << tri2.getArea() << endl;
