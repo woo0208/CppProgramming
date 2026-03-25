@@ -11,7 +11,7 @@ using namespace std;
 
 // 클래스 선언
 class Triangle {
-	// 기본 접근 지정자 private
+	// 기본 접근 지정자 private (외부에서 직접 접근을 막기 위함)
 	int width;
 	int height;
 
@@ -26,18 +26,19 @@ public:
 	double getArea();
 };
 
-// 생성자 => 초기화 리스트 사용
+// 생성자 정의 (초기화 리스트를 사용하여 width와 height를 1로 초기화)
 Triangle::Triangle() : width(1), height(1) {
 	cout << "폭" << width << ",높이" << height << " 삼각형생성" << endl;
 };
 
-// 소멸자 선언
+// 소멸자 정의
 Triangle::~Triangle() {
 	cout << "폭" << width << ",높이" << height << " 삼각형소멸" << endl;
 }
 
-// 외부에서 값에 접근하여 수정할 수 있도록 set 함수 추가
+// 외부에서 값을 설정할 수 있도록 하는 set 함수 정의
 void Triangle::setWidth(int w) {
+	// 음수 입력을 방지하기 위한 유효성 검사
 	if (w < 0) {
 		cout << "음수는 입력할 수 없습니다." << endl;
 		return;
@@ -48,6 +49,7 @@ void Triangle::setWidth(int w) {
 }
 
 void Triangle::setHeight(int h) {
+	// 음수 입력을 방지하기 위한 유효성 검사
 	if (h < 0) {
 		cout << "음수는 입력할 수 없습니다." << endl;
 		return;
@@ -57,7 +59,7 @@ void Triangle::setHeight(int h) {
 	}
 }
 
-// 외부에서 값을 읽어올 수 있도록 get 함수 추가
+// 외부에서 값을 반환하는 get 함수 정의
 int Triangle::getWidth() {
 	return width;
 }
@@ -66,7 +68,7 @@ int Triangle::getHeight() {
 	return height;
 }
 
-// 면적 계산 함수
+// 삼각형의 면적을 계산하여 반환하는 함수
 double Triangle::getArea() {
 	return width * height / 2.0;
 }
