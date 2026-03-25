@@ -15,7 +15,9 @@ public:
 	double getArea();
 };
 
-Triangle::Triangle() : width(1), height(1) {};
+Triangle::Triangle() : width(1), height(1) {
+	cout << "폭" << width << ",높이" << height << " 삼각형생성" << endl;
+};
 
 Triangle::~Triangle() {
 	cout << "폭" << width << ",높이" << height << " 삼각형소멸" << endl;
@@ -60,7 +62,7 @@ int main() {
 	tri.setWidth(3);
 	tri.setHeight(5);
 	cout << "삼각형의 폭은 " << tri.getWidth() << endl;
-	cout << "삼각형의 높이는 " << tri.getWidth() << endl;
+	cout << "삼각형의 높이는 " << tri.getHeight() << endl;
 	cout << "삼각형의 면적은 " << tri.getArea() << endl;
 	return 0;
 }
