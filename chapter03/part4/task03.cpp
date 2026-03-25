@@ -7,6 +7,7 @@ class Triangle {
 	int height;
 public:
 	Triangle();
+	~Triangle();
 	void setWidth(int w);
 	void setHeight(int h);
 	int getWidth();
@@ -15,6 +16,10 @@ public:
 };
 
 Triangle::Triangle() : width(1), height(1) {};
+
+Triangle::~Triangle() {
+	cout << "폭" << width << ",높이" << height << " 삼각형소멸" << endl;
+}
 
 void Triangle::setWidth(int w) {
 	if (w < 0) {
