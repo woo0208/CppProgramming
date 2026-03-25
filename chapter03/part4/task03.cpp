@@ -2,9 +2,14 @@
 
 using namespace std;
 
+
+// 클래스 선언
 class Triangle {
+	// 기본 접근 지정자 private
 	int width;
 	int height;
+
+	// 외부에서 접근하기 위해 public 사용
 public:
 	Triangle();
 	~Triangle();
@@ -15,14 +20,17 @@ public:
 	double getArea();
 };
 
+// 기본 생성자 => 초기화 리스트 사용
 Triangle::Triangle() : width(1), height(1) {
 	cout << "폭" << width << ",높이" << height << " 삼각형생성" << endl;
 };
 
+// 소멸자 선언
 Triangle::~Triangle() {
 	cout << "폭" << width << ",높이" << height << " 삼각형소멸" << endl;
 }
 
+// 외부에서 값에 접근하여 수정할 수 있도록 set 함수 추가
 void Triangle::setWidth(int w) {
 	if (w < 0) {
 		cout << "음수는 입력할 수 없습니다." << endl;
@@ -43,7 +51,7 @@ void Triangle::setHeight(int h) {
 	}
 }
 
-
+// 외부에서 값을 읽어올 수 있도록 get 함수 추가
 int Triangle::getWidth() {
 	return width;
 }
@@ -52,6 +60,7 @@ int Triangle::getHeight() {
 	return height;
 }
 
+// 면적 계산 함수
 double Triangle::getArea() {
 	return width * height / 2.0;
 }
