@@ -19,15 +19,15 @@ public:
 	int getRadius();
 };
 
-// 생성자 선언 (기본값 1로 초기화)
+// 생성자 정의 (반지름을 기본값 1로 초기화)
 Circle::Circle() {
 	radius = 1;
 }
 
 
-// 외부에서 값에 접근하여 수정할 수 있도록 set 함수 추가
+// 외부에서 반지름 값을 설정할 수 있도록 set 함수 정의
 void Circle::setRadius(int r) {
-	// 매개변수가 음수일 경우 예외로직 추가
+	// 매개변수가 음수일 경우를 처리하는 조건문
 	if (r < 0) {
 		cout << "음수는 입력할 수 없습니다." << endl;
 		radius = 1;
