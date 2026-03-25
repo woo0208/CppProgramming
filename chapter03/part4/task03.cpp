@@ -20,7 +20,7 @@ public:
 	double getArea();
 };
 
-// 기본 생성자 => 초기화 리스트 사용
+// 생성자 => 초기화 리스트 사용
 Triangle::Triangle() : width(1), height(1) {
 	cout << "폭" << width << ",높이" << height << " 삼각형생성" << endl;
 };
