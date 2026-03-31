@@ -51,7 +51,7 @@ int main() {
     Account a("황수희"); // "황수희" 이름의 계좌 생성
     a.deposit(20000);   
 
-    // a.getOwner()는 char* 를 반환하므로 정상적으로 문자열이 출력됩니다.
+    // a.getOwner()는 char* 를 반환하므로 정상적으로 문자열이 출력
     cout << a.getOwner() << " 잔액은 " << a.inquiry() << endl;
 
     int money = a.withdraw(15000); 
