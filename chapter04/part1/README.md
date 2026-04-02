@@ -20,3 +20,6 @@
 
 <img width="692" height="282" alt="image" src="https://github.com/user-attachments/assets/8a615fce-7534-44a6-bda6-127856bf8a7a" />
 
+
+# 실습과제5 - 실행결과
+
