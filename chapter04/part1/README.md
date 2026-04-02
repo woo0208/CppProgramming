@@ -11,3 +11,12 @@
 # 실습과제3 - 실행결과
 
 <img width="686" height="379" alt="image" src="https://github.com/user-attachments/assets/893e1b58-4a39-47b1-a7dc-a5e1f5aff247" />
+
+
+---
+
+
+# 실습과제4 - 실행결과
+
+<img width="692" height="282" alt="image" src="https://github.com/user-attachments/assets/8a615fce-7534-44a6-bda6-127856bf8a7a" />
+
