@@ -23,5 +23,7 @@ int main() {
 
 	cout << "평균값은 " << avg << "입니다" << endl;
 
+	delete[] num;
+
 	return 0;
 }
