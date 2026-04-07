@@ -23,5 +23,7 @@ int main() {
 
 	cout << "최대값은 " << max << "입니다" << endl;
 
+	delete[] num;
+
 	return 0;
 }
