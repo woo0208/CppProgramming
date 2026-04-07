@@ -1,3 +1,9 @@
+// *******************************************
+// 제목: 실습 과제3
+// 날짜: 26년 4월 07일
+// 작성자: 2603043 한정우
+// *******************************************
+
 #include <iostream>
 
 using namespace std;
@@ -6,23 +12,30 @@ int main() {
 
 	int n = 0;
 	cout << "입력할 정수의 개수를 입력하세요: ";
-	cin >> n;
+	cin >> n; // 정수의 개수 입력
+	
 	cout << n << "개의 정수를 입력하시오.\n";
+	
+	// 1. 입력받은 n만큼 정수형 배열 동적 할당
 	int* num = new int[n];
+	
+	// 2. 메모리 할당 성공 여부 확인 (예외 처리)
 	if (!num) {
-	cout << "메모리를 할당할 수 없습니다.";
-	return -1;
-	}
-	int total = 0;
-	for (int i = 0; i < n; i++) {
-		cin >> num[i];
-		total += num[i];
+		cout << "메모리를 할당할 수 없습니다.";
+		return -1;
 	}
 
-	int avg = total / n;
+	int total = 0;
+	for (int i = 0; i < n; i++) {
+		cin >> num[i];    // 배열 요소에 정수 입력
+		total += num[i];  // 입력받은 값 누적 합계 계산
+	}
+
+	int avg = total / n; // 평균 계산
 
 	cout << "평균값은 " << avg << "입니다" << endl;
 
+	// 3. 사용이 끝난 동적 배열 메모리 반환 (메모리 누수 방지)
 	delete[] num;
 
 	return 0;
