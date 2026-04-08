@@ -20,5 +20,13 @@ Circle::~Circle() {
 }
 
 int main() {
+	Circle* pArray = new Circle[3];
+	for (int i = 0; i < 3; i++) {
+		if (i == 2) {
+		cout << pArray[i].getArea() << "\n";
+		}
+	}
 
+	delete[] pArray;
+	return 0;
 }
