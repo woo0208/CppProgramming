@@ -31,12 +31,12 @@ string findLastString(string arr[], int size) {
     string last = arr[0];
 
     for (int i = 1; i < size; i++) {
-        // string 클래스에 오버로딩된 '>' 연산자를 통해 사전순(Lexicographical order) 비교
+        // string 클래스에 오버로딩된 '>' 연산자를 통해 사전순 비교
         if (arr[i] > last) {
             last = arr[i];
         }
     }
 
-    // 가장 뒤에 나오는 문자열 객체를 값에 의한 반환(Return by value)으로 전달
+    // 가장 뒤에 나오는 문자열 객체를 값에 의한 반환으로 전달
     return last;
 }
