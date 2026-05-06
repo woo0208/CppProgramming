@@ -20,6 +20,13 @@ int main() {
 }
 
 string GetLatterString(string s1, string s2) {
-	string to = s1 + s2;
-	return to;
+	string re;
+	if (s1 > s2) {
+		re = s1;
+		return s1;
+	}
+	else {
+		re = s2;
+		return s2;
+	}
 }
