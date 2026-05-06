@@ -42,4 +42,9 @@
 ---
 
 
+# 실습과제 04
+
+<img width="1109" height="212" alt="image" src="https://github.com/user-attachments/assets/5f6aaa74-8ed5-4cca-8042-c372d030f2bb" />
+
+
 
