@@ -28,3 +28,26 @@ C++에서 두 방식 모두 함수 내부에서 원본 데이터를 직접 수�
 
 3. **의도치 않은 재할당 방지 (불변성 제어)**
    포인터 변수는 함수 내부에서 연산을 통해 다른 메모리 주소를 가리키도록 변경될 위험이 존재합니다. 하지만 참조자는 한 번 특정 변수의 별칭으로 초기화되면 다른 변수를 참조하도록 재할당할 수 없으므로, 메모리 주소가 잘못 변경되는 논리적 오류를 원천적으로 차단할 수 있습니다.
+
+
+
+---
+
+# 실습과제 2
+
+<img width="1110" height="193" alt="image" src="https://github.com/user-attachments/assets/97afa374-0414-4114-ae52-fabc32922cc1" />
+
+
+---
+
+# 실습과제 3
+
+<img width="1064" height="205" alt="image" src="https://github.com/user-attachments/assets/0da66daf-f376-47a4-a5b4-6d8ff23593d1" />
+
+---
+
+# 실습과제 4
+
+<img width="1110" height="275" alt="image" src="https://github.com/user-attachments/assets/ea307de1-0f73-47a0-8201-2955b3e5d4f1" />
+
+
