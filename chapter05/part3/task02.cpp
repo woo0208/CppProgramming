@@ -9,11 +9,7 @@
 
 using namespace std;
 
-void Uppercase(string &s) {
-	for (int i = 0; i < s.length(); i++) {
-		s[i] = toupper(s[i]);
-	}
-}
+void Uppercase(string &s);
 
 int main() {
 	string s1("hello");
@@ -21,4 +17,11 @@ int main() {
 	Uppercase(s1);
 	cout << "변환후 문자열" << s1 << endl;
 	return 0;
+}
+
+
+void Uppercase(string &s) {
+	for (int i = 0; i < s.length(); i++) {
+		s[i] = toupper(s[i]);
+	}
 }
