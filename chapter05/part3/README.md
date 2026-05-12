@@ -72,3 +72,10 @@ int main() {
 # 실습과제 3
 
 <img width="1109" height="205" alt="image" src="https://github.com/user-attachments/assets/4854c074-13e3-4905-8222-afbd7d493285" />
+
+---
+
+# 실습과제 4
+
+<img width="1108" height="134" alt="image" src="https://github.com/user-attachments/assets/deae2b3c-14e7-43c0-97ae-0e59e2b96b0d" />
+
