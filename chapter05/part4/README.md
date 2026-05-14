@@ -15,3 +15,18 @@
 2. **소멸자 (Destructor):** 객체의 생명주기가 끝나 메모리에서 소멸될 때 호출되는 함수입니다.
 3. **복사 생성자 (Copy Constructor):** 동일한 객체를 통해 초기화할 때 얕은 복사를 수행하도록 자동 생성됩니다.
 4. **복사 대입 연산자 (Copy Assignment Operator):** 기존 객체에 다른 객체를 대입할 때 얕은 복사를 수행하는 대입 연산자입니다.
+
+
+
+---
+
+
+# 실습과제 2
+
+<img width="1108" height="232" alt="image" src="https://github.com/user-attachments/assets/f288da89-8a33-4f03-b05e-d26d76e45b37" />
+
+---
+
+
+# 실습과제 3
+
