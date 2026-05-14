@@ -30,3 +30,7 @@
 
 # 실습과제 3
 
+<img width="1106" height="203" alt="image" src="https://github.com/user-attachments/assets/62df8613-114f-4e94-b133-887fd32e7832" />
+
+---
+
