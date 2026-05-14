@@ -1,3 +1,9 @@
+// **********************************************
+//  제   목  :  실습과제4
+//  날   짜  :  2026년 5월 14일
+//  작성자  :  2603043 한정우
+// **********************************************
+
 #include <iostream>
 using namespace std;
 
@@ -5,15 +11,15 @@ class Collector {
     int *p; // 데이터를 저장하는 동적 배열
     int size = 0; // 데이터 개수
 public:
-    Collector(int size, int values[]); // 생성자
-    Collector(const Collector& src); // 복사 생성자 (문항 3)
-    ~Collector(); // 소멸자 (문항 2)
+    Collector(int size, int values[]); 
+    Collector(const Collector& src); // 복사 생성자 
+    ~Collector(); 
     void show(); // 데이터 개수와 배열 원소를 화면에 출력
     int getSize() { return size; }
     int get(int index) { return p[index]; }
 };
 
-// (1) 생성자 구현
+// 생성자 구현
 Collector::Collector(int size, int values[]) {
     this->size = size;
     p = new int[size]; // size만큼 동적 메모리 할당
@@ -22,7 +28,7 @@ Collector::Collector(int size, int values[]) {
     }
 }
 
-// (3) 복사 생성자 구현 (깊은 복사)
+// 복사 생성자 구현 (깊은 복사)
 Collector::Collector(const Collector& src) {
     this->size = src.size;
     this->p = new int[src.size]; // 새로운 메모리를 동적 할당하여 깊은 복사 수행
@@ -31,12 +37,11 @@ Collector::Collector(const Collector& src) {
     }
 }
 
-// (2) 소멸자 구현
+// 소멸자 구현
 Collector::~Collector() {
     delete[] p; // 동적 할당받은 메모리 반환
 }
 
-// (1) show() 함수 구현
 void Collector::show() {
     cout << "데이터 수 " << size << ": ";
     for (int i = 0; i < size; i++) {
@@ -45,7 +50,7 @@ void Collector::show() {
     cout << endl;
 }
 
-// (1) 외부 함수 calcAvg() 구현
+// 외부 함수 calcAvg() 구현
 // 매개변수로 Collector 객체를 값으로 전달받음 (이때 복사 생성자가 호출됨)
 double calcAvg(Collector c) { 
     double sum = 0;
