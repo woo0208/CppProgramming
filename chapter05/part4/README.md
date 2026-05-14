@@ -34,3 +34,7 @@
 
 ---
 
+# 실습과제 4
+
+<img width="1110" height="164" alt="image" src="https://github.com/user-attachments/assets/cbac85cf-5add-4402-ae81-d752c409e3a3" />
+
