@@ -5,7 +5,15 @@ using namespace std;
 class Rectangle {
 	int width, height;
 public:
-	Rectangle(int w = 1, int h = 1) {
+	Rectangle() {
+		width = 1;
+		height = 1;
+	}
+	Rectangle(int w) {
+		width = w;
+		height = 1;
+	}
+	Rectangle(int w, int h) {
 		width = w;
 		height = h;
 	}
