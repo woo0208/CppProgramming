@@ -1,3 +1,7 @@
+#include <iostream>
+
+using namespace std;
+
 class Point3D {
 	int arr[3];
 public:
