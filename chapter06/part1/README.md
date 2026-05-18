@@ -42,3 +42,10 @@ C++은 **함수 오버로딩**을 지원하므로, 이름이 같더라도 매개
 
 # 실습과제 2
 <img width="1115" height="628" alt="image" src="https://github.com/user-attachments/assets/e499d9b4-5f90-4d97-b469-32ee8afcdb5c" />
+
+---
+
+# 실습과제 3
+
+<img width="1115" height="628" alt="image" src="https://github.com/user-attachments/assets/404d9293-005d-4aca-952d-d4e60a1d870e" />
+
