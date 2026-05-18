@@ -31,6 +31,10 @@ int main() {
     PrintData(); // Error: 함수에 인자가 너무 적습니다!
     return 0;
 }
+// 3. 정의부: 여기에만 기본값을 설정함
+void PrintData(int a = 100) { 
+    std::cout << a << std::endl;
+}
 ```
 
 ---
@@ -39,7 +43,8 @@ int main() {
 <img width="1115" height="628" alt="image" src="https://github.com/user-attachments/assets/af48192b-1475-46d6-b67f-b68299ff36e1" />
 
 
-// 3. 정의부: 여기에만 기본값을 설정함
-void PrintData(int a = 100) { 
-    std::cout << a << std::endl;
-}
+
+---
+
+# 실습과제 3
+<img width="1115" height="628" alt="image" src="https://github.com/user-attachments/assets/cd18ec72-cd43-4470-b5c2-612f78ed9c39" />
