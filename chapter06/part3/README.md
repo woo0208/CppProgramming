@@ -33,3 +33,12 @@ C++에서 static 멤버 변수를 클래스 내부에서 선언만 하고 외부
 
 ---
 
+# 실습과제 4
+
+## ex.1
+<img width="1110" height="621" alt="image" src="https://github.com/user-attachments/assets/d88e70b2-ddff-49db-b4b7-a72801a2b9f9" />
+
+## ex.2
+
+## ex.3
+
