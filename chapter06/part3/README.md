@@ -42,4 +42,5 @@ C++에서 static 멤버 변수를 클래스 내부에서 선언만 하고 외부
 <img width="1110" height="621" alt="image" src="https://github.com/user-attachments/assets/8fa2ba83-2495-47f1-b263-5010c6e295d5" />
 
 ## ex.3
+<img width="1106" height="618" alt="image" src="https://github.com/user-attachments/assets/5f869d8d-443f-43e9-92a1-02136833da43" />
 
