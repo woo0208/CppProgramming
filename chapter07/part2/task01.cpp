@@ -14,7 +14,7 @@ public:
 };
 
 Complex::Complex() : x(0), y(0) {}
-Complex::Complex(int a,int b) : x(a), y(b) {}
+Complex::Complex(int a, int b) : x(a), y(b) {}
 
 Complex Complex::operator+(int x) {
 	Complex cm;
@@ -35,8 +35,9 @@ void Complex::show() {
 }
 
 int main() {
-	Complex x(2, 3),y(-5,10),sum;
+	Complex x(2, 3), y(-5, 10), sum;
 	sum = x + y;
+	//sum = x.operator+(y);
 	cout << "두 복소수의 합은";
 	sum.show();
 	return 0;
