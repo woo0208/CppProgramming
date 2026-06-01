@@ -39,6 +39,7 @@ int main() {
 	sum = x + y;
 	cout << "두 복소수의 합은";
 	sum.show();
+	return 0;
 }
 
 
