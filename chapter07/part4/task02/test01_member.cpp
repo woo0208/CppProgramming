@@ -1,3 +1,5 @@
+// 멤버 함수 구현
+
 #include <iostream>
 
 using namespace std;
